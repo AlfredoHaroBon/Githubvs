@@ -6,10 +6,20 @@ using System.Threading.Tasks;
 
 namespace trabajo1._1
 {
-    class Program
+    class HelloWorld
     {
+        public string Greeting;
+        public HelloWorld()
+        {
+            Greeting = "Mundo";
+        }
+
         static void Main(string[] args)
         {
+
+            HelloWorld x = new HelloWorld();
+            Console.WriteLine($"Hola {x.Greeting}");
+            Console.ReadLine();
         }
     }
 }
