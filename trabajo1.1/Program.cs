@@ -11,7 +11,8 @@ namespace trabajo1._1
         public string Greeting;
         public HelloWorld()
         {
-            Greeting = "Mundo";
+            Greeting = "Mundo ";
+
         }
 
         static void Main(string[] args)
